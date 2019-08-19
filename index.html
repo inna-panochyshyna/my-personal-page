@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My personal page</title> 
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="image/favicon.png">
+<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<!-- Styles -->
+    <link href="css/style.css" rel="stylesheet"  media="screen">
+  </head>
+    
+  <body>
+    <div id="layout" class="layout">
+
+<!-- Header -->
+      <header id="top" class="navbar js-navbar-affix">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a href="#layout" class="brand js-target-scroll">
+                <img class="brand"  alt="my brand"  src="image/brand.png">
+              </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse" > 
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#layout">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#modules">Modules from INTITA</a></li>  
+              <li><a href="www.site.com#test">Projects</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+<!-- Home -->
+      <main id="home" class="masthead masked" data-stellar-background-ratio="0.5">
+        <div class="opener rel-1">
+          <div class="container">
+            <h1>Hi, my name is </h1>
+            <h1 id="name"></h1>
+            <p class="lead-text">
+            and I'm a student of INTITA Programming Academy
+            </p>
+          </div>
+        </div>
+      </main>
+
+<!-- Content -->
+      <div class="content">
+
+<!-- About  -->
+        <section id="about" class="about section">
+          <div class="container">
+            <div class="row-padding row-columns row">
+              <div class="col-padding column col-md-6 col-md-push-6">
+                <h2 class="section-title">About me</h2>
+                  <p>I have an economic education and experience in the banking industry more than 10 years. I can’t say that I was not successful in this area or this work didn’t bring me pleasure. However, staying on a maternity leave, I realized that I wanted more from my job. Today I'm interested in:
+                  <ol>
+                    <li>the possibility of constant development and improvement;</li>
+                    <li>flexible hours;</li>
+                    <li>opportunity of the remote work;</li>
+                    <li>a big salary with the prospect of growth;</li>
+                  </ol>
+                Considering that we are living in the age when information technology is the main engine of the development of the world economy, the programmer's profession, in my opinion, opens up these opportunities. I believe that my desire and persistence in combination with the possibilities of INTITA Programming Academy will give a great result and my dream of becoming a programmer will become a reality!</p>
+              </div>
+               <div class="col-padding column col-md-6 col-md-pull-6">
+                <img alt="my photo" class="img-responsive" src="image/about.jpg">
+              </div>
+            </div>
+          </div>
+        </section>
+      
+<!-- Modules from INTITA  -->
+      <section id="modules" class="modules bgc-light section">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-title">Modules from INTITA</h2>
+              <p class="lead" id="course"></p>
+              <p class="lead-text">This course gives a good foundation for mastering the profession of a web developer, it is also a great way to  train the brain, open the mind <br>and get a new knowledge. <br>I believe that all successfully passed modules and tasks step by step will discover for me the world of the IT-industry and ultimately will open interview door at the biggest and most successful IT firms and companies.
+              </p>
+            </div>
+          </div> 
+          <div class="section-body">
+            <div class="row-columns row">
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-android-checkbox-outline" title="Finished!"></i>
+                <h4>Module 1</h4>
+                <h4 id="moduleIntro"></h4>
+               	<p>Academic time: 11 lessons<br>Teacher: Mitiushkin Yurii</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-android-checkbox-outline" title="Finished!"></i>
+                <h4>Module 2</h4>
+                <h4 id="moduleMath"></h4>
+                <p>Academic time: 30 lessons<br>Teacher: Trokhymchuk Olha</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-android-checkbox-outline" title="Finished!"></i> 
+                <h4>Module 3</h4>
+				<h4 id="moduleHigherMath"></h4>
+                <p>Academic time: 16 lessons<br>Teacher: Kanieva Iryna</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-android-checkbox-outline" title="Finished!"></i>
+                <h4>Module 4</h4>
+                <h4 id="moduleNetworks"></h4>
+                <p>Academic time: 12 lessons<br>Teacher: Zakharchenko Serhii</p>
+              </div>
+            </div>
+            <div class="row-columns row">
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-settings" title="The module is in work!"></i>
+                <h4>Module 5</h4>
+                <h4 id="moduleCLanguage"></h4>
+                <p>Academic time: 13 lessons<br>Teacher: Mitiushkin Yurii</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-settings" title="The module is in work!"></i>
+                <h4>Module 6</h4>
+                <h4 id="moduleDiscreteMath"></h4>
+                <p>Academic time: 17 lessons<br>Teacher: Mitiushkin Yurii</p>
+                </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-settings" title="The module is in work!"></i>
+                <h4>Module 7</h4>
+                <h4 id="moduleHTML"></h4>
+                <p>Academic time: 12 lessons<br>Teacher: Podkopaeva Yuliya</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 8</h4>
+                <h4>HTML, CSS Website layout<br>(Part 2)</h4>
+                <p>Academic time: 13 lessons</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 9</h4>
+                <h4 id="moduleAlgorithms"></h4>
+                <p>Academic time: 22 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 10</h4>
+                <h4 id="moduleDatabases"></h4>
+                <p>Academic time: 20 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 11</h4>
+                <h4>Databases for web developers<br>(Part 2)</h4>
+                <p>Academic time: 18 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 12</h4>
+                <h4 style="letter-spacing:0.7px" id="modulePHP1"></h4>
+                <p>Academic time: 12 lessons</p>
+              </div>
+            </div>
+            <div class="row-columns row">
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 13</h4>
+                <h4 id="modulePHP2"></h4>
+                <p>Academic time: 13 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 14</h4>
+                <h4 id="moduleJavaScript"></h4>
+                <p>Academic time: 11 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 15</h4>
+                <h4>Regular expressions</h4>
+                <p>Academic time: 3 lessons</p>
+              </div>
+              <div class="column col-md-3">
+                <i class="text-primary icon ion-locked" title="The module is closed!"></i>
+                <h4>Module 16</h4>
+                <h4 id="moduleModern"></h4>
+                <p>Academic time: 10 lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+<!-- Projects -->
+      <section id="projects" class="projects section">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-title">My projects</h2>
+            </div>
+          </div> 
+          <div class="section-body">
+            <div class="row-columns row">
+              <div class="column col-md-6">
+                <div class="isotope-item C">
+                  <a href="https://github.com/inna-panochyshyna/It-employer_appeal-" target="_blank">
+                    <figure class="showcase-item">
+                      <div class="showcase-item-thumbnail"><img alt="foto of project" src="image/project1.jpg"></div>
+                      <figcaption class="showcase-item-hover">
+                        <div class="showcase-item-info">
+                          <div class="showcase-item-category">C language programming</div>
+                          <div class="showcase-item-title">"IT employer criteria appeal for a jobseeker"</div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>
+              </div>
+              <div class="column col-md-6">
+                <div class="isotope-item web">
+                  <a href="https://github.com/inna-panochyshyna/my-personal-page" target="_blank">
+                    <figure class="showcase-item">
+                      <div class="showcase-item-thumbnail"><img alt="foto of project" src="image/project2.jpg"></div>
+                      <figcaption class="showcase-item-hover">
+                        <div class="showcase-item-info">
+                          <div class="showcase-item-category">HTML, CSS Website layout</div>
+                          <div class="showcase-item-title">"My personal webpage"</div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- Contacts -->
+      <section id="contacts" class="contacts bgc-light section">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-md-offset-2">
+              <h2 class="section-title">Keep in touch</h2>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="rowrow-columns row">
+              <div class="column col-md-3">
+                <div class="contact-line">
+                  <div class="media-left">
+                    <i class="text-primary icon ion-ios-telephone"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Phone</h4>
+                    <h5 id="phone"></h5>
+                  </div>
+                </div>
+                <div class="contact-line">
+                  <div class="media-left">
+                    <i class="text-primary icon ion-android-pin"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Address</h4>
+                    <h5>Vinnytsia, 21008<br>Ukraine</h5>
+                  </div>
+                </div>
+                <div class="contact-line">
+                  <div class="media-left">
+                    <i class="text-primary icon ion-email"></i>
+                  </div>
+                  <div class="media-right">
+                    <h4>Email</h4>
+                    <h5 id="email"></h5>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-md-8">
+                <img alt="my foto" class="img-responsive" src="image/contacts.JPG">  
+              </div>
+              <div class="column col-md-1">
+                <div class="social">
+                  <div>
+                    <a href=# id="facebook" target="_blank">
+                      <i class="text-primary icon ion-social-facebook"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="social">
+                  <div>
+                    <a href="https://www.instagram.com/inna.panochyshyna/?hl=ru" alt="Instagram" target="_blank">
+                      <i class="text-primary icon ion-social-instagram"></i>
+                    </a>
+                  </div>
+                </div>  
+                <div class="social">  
+                  <div>
+                    <a href="https://www.linkedin.com/in/inna-panochyshyna-185735188/" alt="Linkedin" target="_blank">
+                      <i class="text-primary icon ion-social-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+<!-- Footer -->
+
+    <footer id="footer" class="footer bgc-dark">
+      <div class="copy">2019 Created by Inna Panochyshyna</div>
+    </footer>
+  </div>
+     
+     <!-- Scripts -->
+
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/interface.js"></script> 
+     <script src="https://intita.com/api/dist/intita-api-client.min.js"></script>
+     <script type="text/javascript" src="js/script.js"></script>
+    </body>
+    </html>
